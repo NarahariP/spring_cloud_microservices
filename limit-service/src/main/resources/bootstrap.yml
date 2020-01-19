@@ -1,0 +1,2 @@
+spring:  application:    name: limit-service  cloud:    config:      uri: http://localhost:8888  profiles:    active: qaeureka:  client:    serviceUrl:      defaultZone: http://localhost:8761/eureka/    ## Now this information will picked from git repository.
+#limit-service:#  minimum: 9#  maximum: 999  
